@@ -351,7 +351,7 @@ runExtension(ID, () => {
       });
       const text = getTextByBlockUid(blockUid);
       if (text === label) {
-        const container = b.closest(".rm-block-main");
+        const container = b.closest(".rm-block-main .rm-block-serendipity");
         const icon = createIconButton("arrow-top-right");
         icon.style.position = "absolute";
         icon.style.top = "0";
